@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-08-phonebook/static/css/main.426b346a.css",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.b6d65616.js",
+    "static/js/348.cd79efd0.chunk.js": "/goit-react-hw-08-phonebook/static/js/348.cd79efd0.chunk.js",
+    "static/js/236.f779da37.chunk.js": "/goit-react-hw-08-phonebook/static/js/236.f779da37.chunk.js",
+    "static/js/257.c2e1dd86.chunk.js": "/goit-react-hw-08-phonebook/static/js/257.c2e1dd86.chunk.js",
+    "static/js/771.3139620c.chunk.js": "/goit-react-hw-08-phonebook/static/js/771.3139620c.chunk.js",
+    "static/js/780.4d88fbef.chunk.js": "/goit-react-hw-08-phonebook/static/js/780.4d88fbef.chunk.js",
+    "static/js/428.5ba9da4c.chunk.js": "/goit-react-hw-08-phonebook/static/js/428.5ba9da4c.chunk.js",
+    "static/js/719.60e3bb48.chunk.js": "/goit-react-hw-08-phonebook/static/js/719.60e3bb48.chunk.js",
+    "static/media/hero.jpeg": "/goit-react-hw-08-phonebook/static/media/hero.a9bf59c345cafc7a5874.jpeg",
+    "index.html": "/goit-react-hw-08-phonebook/index.html",
+    "main.426b346a.css.map": "/goit-react-hw-08-phonebook/static/css/main.426b346a.css.map",
+    "main.b6d65616.js.map": "/goit-react-hw-08-phonebook/static/js/main.b6d65616.js.map",
+    "348.cd79efd0.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/348.cd79efd0.chunk.js.map",
+    "236.f779da37.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/236.f779da37.chunk.js.map",
+    "257.c2e1dd86.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/257.c2e1dd86.chunk.js.map",
+    "771.3139620c.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/771.3139620c.chunk.js.map",
+    "780.4d88fbef.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/780.4d88fbef.chunk.js.map",
+    "428.5ba9da4c.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/428.5ba9da4c.chunk.js.map",
+    "719.60e3bb48.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/719.60e3bb48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.426b346a.css",
+    "static/js/main.b6d65616.js"
+  ]
+}
