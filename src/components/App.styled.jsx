@@ -4,17 +4,17 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: ${p => p.theme.spacing(2)} auto;
+  margin: 8px auto;
   max-width: 100%;
-  width: 400px;
-  height: auto;
+  width: 768px;
+  min-height: 800px;
   text-align: center;
-  border: 1px solid ${p => p.theme.colors.secondary};
-  border-radius: ${p => p.theme.radii.lg};
-  background-color: ${p => p.theme.colors.background};
+  border: 1px #d9cdad;
+  border-radius: 16px;
+  background-color: #d9cdad;
 `;
 
 export const Title = styled.h2`
-color:  ${p => p.theme.colors.white};
-  margin-top: ${p => p.theme.spacing(4)};
+color:  #fff;
+  margin-top: 12px;
 `;

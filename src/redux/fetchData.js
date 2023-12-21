@@ -1,7 +1,7 @@
 import axios from "axios";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
-axios.defaults.baseURL = 'https://65774845197926adf62de1c5.mockapi.io';
+axios.defaults.baseURL = 'https://connections-api.herokuapp.com';
 
 export const fetchContacts = createAsyncThunk(
     'contacts/fetchAll',
@@ -37,4 +37,19 @@ export const deleteContact = createAsyncThunk(
             return thunkAPI.rejectWithValue(error.message);
         }
     }
+);
+
+export const editContact = createAsyncThunk(
+  'contacts/editContact',
+  async (data, thunkAPI) => {
+    try {
+      const response = await axios.patch(`/contacts/${data.id}`, {
+        name: data.name,
+        number: data.number,
+      });
+      return response.data;
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error.message);
+    }
+  }
 );

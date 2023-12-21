@@ -2,32 +2,56 @@ import styled from 'styled-components';
 
 export const ContactItems = styled.li`
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  margin-bottom: ${p => p.theme.spacing(3)};  
+  margin-bottom: 10px;
+  background-color: #f5f6f7;
+  padding-left: 10px;
+  border-radius: 24px;
 `;
 
 export const Contact = styled.span` 
- margin-right: ${p => p.theme.spacing(2)}; 
- color: ${p => p.theme.colors.white};
+ margin-right: 12px; 
+ color: #000;
 `;
 
-export const Button = styled.button` 
-  padding: ${p => p.theme.spacing(2)} ${p => p.theme.spacing(3)};
-  margin-left: ${p => p.theme.spacing(3)};  
-  font-size: 14px;
-  border-radius: ${p => p.theme.radii.md};;
-  border: 1px solid ${p => p.theme.colors.secondary};
-  background-color: {p => p.theme.colors.secondary};
-    &:hover {
-    background-color: ${p => p.theme.colors.accent};
-    border: 1px solid ${p => p.theme.colors.primary};
-  } 
+export const Btn = styled.button`
+  @media only screen and (max-width: 600px) {
+    margin-right: 10px;
+  }
+  padding: 8px 16px;
+  margin-left: 1px;
+  font-size: 18px;
+  border-radius: 0 24px 24px 0;
+  border: 1px solid;
+  background-color: #f4f1de;
+  color: #000;
+  &:hover {
+    background: #e07a5f;
+    color: #f4f1de;
+    border:none;
+    border: 1px solid #e07a5f;
+  }
+`;
+
+export const BtnEdit = styled.button`
+  padding: 8px 16px;
+  margin-left: 5px;
+  font-size: 18px;
+  border-radius: 24px 0 0 24px;
+  border: 1px solid;
+  background-color: #f4f1de;
+  color: #000;
+  &:hover {
+    background: #f2cc8f;
+    color: #3d405b;
+    border: 1px solid #f2cc8f;
+  }
 `;
 
 export const Text = styled.p`
 text-align: center;
-color: ${p => p.theme.colors.white};
-margin-top: ${p => p.theme.spacing(2)};;
-  margin-bottom: ${p => p.theme.spacing(3)};;  
+color: #fff;
+margin-top: 8px;
+  margin-bottom: 16px;  
 `;
